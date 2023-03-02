@@ -1,8 +1,8 @@
  let number = [1,2,4,5,2,4,5,1,2];
   
 //For Duplicate
-  let duplicate_city = number.filter((val,i,a) => a.indexOf(val) !== i);
-  let unique = duplicate_city.filter((val,i,a) => a.indexOf(val) === i);
+  let duplicate_number = number.filter((val,i,a) => a.indexOf(val) !== i);
+  let unique = duplicate_number.filter((val,i,a) => a.indexOf(val) === i);
 
   // Printing the duplicate value
   console.log(unique);
